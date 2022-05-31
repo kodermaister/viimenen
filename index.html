@@ -1,0 +1,283 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+        </style>
+    <link rel="stylesheet" href="transbike_etusivu.css"> <!-- CSS -->
+    <title>TransBike</title>
+
+</head>
+
+<body>
+   
+    <!-- Vasen puoli-->
+
+    <h1 id="up"class="transbike">TransBike</h1> <h1 class="muuttaa_pyörästäsi"> Muuttaa Pyörästäsi</h1>
+    <h1 class="sähköpyörän"> SÄHKÖPYÖRÄN</h1>
+    <div class="viiva"></div>
+    <!-- JTN TEKSTIÄ -->
+    
+    <div class="text_holder">
+        <p class="text_style_holder">Oli pyöräsi sitten normaali katupyörä esimerkiksi työmatkaa varten tai sitten maastopyörä luontoretkille, TransBiken avulla nostat pyöräilysi uudelle tasolle.</p> <!-- br rivi väli muute uus class -->
+    </div>
+
+    <button class="tilaa_heti" onclick="window.location.href='#tuotteet'">Tilaa Nyt</button>
+
+    <!-- KUVA SLIDER -->
+
+    <div class="slider">
+        <div class="img-box">
+            <img src="images/a.jpg" class="slider-img">
+        </div>
+
+    </div>
+    <button class="btn1" onclick="prev()">&#8592;</button>
+	<button class="btn2" onclick="next()">&#8594;</button>
+
+    
+    
+
+
+    <!-- OIKEA PUOLI
+        joku vitun kuva tohon si
+    -->
+
+
+    
+    <!-- TUOTTEET -->
+
+    <div id="tuotteet" class="tuotteet"></div>
+
+    <h1 class="tuotteet">Teetä Itsellesi Täydellinen Pyörä</h1>
+    <p class="tuotteet">TransBike tarjoaa kahta eri mallia erilaisiin käyttötarkoituksiin
+       
+    </p>
+    <div class="maasto_tuote">
+
+        <h1 class="transbike_maasto_tuote">TransBike</h1>
+        <h1  class="maasto_maasto_tuote">Maasto</h1>
+
+        <div class="maastokuva">
+            <img class="tuote_kuva" src="/images/a.jpg" alt="joo">
+        </div>
+        <p>TransBike Maasto soveltuu erityisesti haastavemmille teille ja <br> seikkailumielisille ajajille
+           
+            
+        </p>
+        <h1 class="hinta">1111€</h1>
+        
+        <button class="maasto_button" onclick="window.location.href='transbike_tilaussivuMaasto.html'">Tilaa/Lue lisää</button>
+        
+        
+
+    </div>
+
+    
+
+    <div class="katu_tuote">
+
+        <h1 class="transbike_katu_tuote">TransBike</h1>
+        <h1 class="katu_katu_tuote">Katu</h1>
+
+        <div class="katukuva">
+            <img class="tuote_kuva" src="/images/b.jpg" alt="gn">
+        </div>
+        <p>TransBike katu tarjoaa nopeamman ja kevyemmän ratkaisun niin työmatkoihin kuin myös vapaa-ajan likkumiseen           
+        </p>
+        <h1 class="hinta2">4000€</h1>
+        <div class="tilaa_katutuote">
+            <button class="katu_button" onclick="window.location.href='transbike_tilaussivuKatu2.html'">Tilaa/Lue lisää</button>
+        </div>
+    </div>
+
+    
+
+
+
+       
+    <!-- OMASTA PYÖRÄSTÄ SÄHKÖPYÖRÄ -->
+
+    <h1 class="omasta_pyöräst_sähk">Omasta Pyörästä Sähköpyörä?</h1>
+    <p class="omasta_pyörästä_sähkönen">Oman pyörän sähköistäminen tuo mukanaan lukuisia hyötyjä</p>
+    
+    <img src="images/climate.PNG" class="climate" alt="co2">
+    <h1 class="Climate">Kestävä kulutus</h1>
+    <div class="climate_textholder">
+        <p class="climate_text">Sähköpyörien suosiminen autojen sijaan laskee hiilidioksidi-päästöjä huomattavasti. Lisäksi oman pyörän sähköistäminen on luonnonvarojen kannalta ekogolisempaa kuin kokonaan uuden sähköpyörän hankkiminen.</p>
+    </div>
+
+    
+    <!-- <img src="images/a.jpg" alt="Ilmaston muutos" class="small_climate_img"> -->
+    <img src="images/health.PNG" class="Health" alt="terveys">
+    <h1 class="health">Terveydellisyys</h1>
+    <div class="health_textholder">
+        <p class="health_text">Pyöräily on mukavan arkiliikunnan lisäksi myös erittäin hyödillistä terveyden kannalta. Pyöräillessä muun muassa sydämen terveys kohentuu ja yleiskunto parantuu. </p>
+    </div>
+
+    <!-- <img src="images/c.jpg" alt="terveys" class="small_health_img"> -->
+    <img src="images/money.PNG" class="money" alt="sähköpyörä">
+    <h1 class="Money">Taloudellisuus</h1>
+    <div class="money_textholder">
+        <p class="money_text">Oman pyörän sähköistäminen on huomattavasti edullisempi vaihtoehto verrattuna valmiin sähköpyörän ostamiseen. Pyöräilyssä käyttö- ja ylläpitokulut ovat autoilua pienemmät.</p>
+    </div>
+    <!--  <img src="images/b.jpg" alt="taloudellisuus" class="small_money_img"> -->
+   
+    <div class="viivainen"></div>
+
+    <!-- FAQ -->
+
+    <div id="FAQ" class="FAQ"></div>
+    <h1 class="usein">Usein Kysytyt Kysymykset</h1>
+    <p class="useinjuttuja"> Asiakkaiden yleisempiä kysymyksiä pyörien sähköistämisestä sekä niiden käytöstä</p>
+    <div class="layot">
+        <div class="accordin">
+            <div class="accordin_question">
+                <p>Joudunko sähköistämään pyöräni itse? </p>
+
+                
+            </div>
+            <div class="accordin_answer">
+                <p>dsadasdasdas <br> dsadas <br>  sdadas <br> sdad </p>
+
+            </div>
+        </div>
+
+        <div class="accordin">
+            <div class="accordin_question">
+                <p>Kuinka toimitan pyöräni teille?<p>
+    
+    
+            </div>
+            <div class="accordin_answer">
+                <p>En minä tiedä</p>
+
+            </div>
+    
+        </div>
+        <div class="accordin">
+            <div class="accordin_question">
+                <p>Mikä on pyörien toimintasäde?</p>
+
+                
+            </div>
+            <div class="accordin_answer">
+                <p>En minä tiedä</p>
+
+            </div>
+        </div>
+        <div class="accordin">
+            <div class="accordin_question">
+                <p>Millainen takuu pyörissä on?</p>
+
+                
+            </div>
+            <div class="accordin_answer">
+                <p>En minä tiedä</p>
+
+            </div>
+        </div>
+        <div class="accordin">
+            <div class="accordin_question">
+                <p>Kuinka valitsen oikean rengaskoon katuversioon?</p>
+
+                
+            </div>
+            <div class="accordin_answer">
+                <p>En minä tiedä</p>
+
+            </div>
+        </div>
+        <div class="accordin">
+            <div class="accordin_question">
+                <p>Voiko pyörällä ajaa myös talvella?</p>
+
+                
+            </div>
+            <div class="accordin_answer">
+                <p>En minä tiedä</p>
+
+            </div>
+        </div>
+        <div class="accordin">
+            <div class="accordin_question">
+                <p>Kauanko pyörän sähköistäminen vie?</p>
+
+                
+            </div>
+            <div class="accordin_answer">
+                <p>En minä tiedä</p>
+
+            </div>
+        </div>
+        <div class="accordin">
+            <div class="accordin_question">
+                <p>Tuleeko mukana laturi?</p>
+
+                
+            </div>
+            <div class="accordin_answer">
+                <p>En minä tiedä</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPTIT -->
+    <script src="transbike_etusivu.js">
+        
+        
+    </script>
+
+    
+
+    <!-- SIVUN YLÄ- JA ALAOSA -->
+
+    <div class="fucked_border"></div>
+    <div class="ylä_box">
+        <a href="#tuotteet" class="tuuotteet"> Tuotteet &#9660;</a> 
+        <a href="./transbike_tietoaMeistä.html" class="tietoa_meistä">Tietoa Meistä &#9660;</a>
+        <a href="./transbike_tietoaMeistä.html" class="ota_yhteyttä">Ota Yhteyttä &#9660;</a>
+        <a href="#FAQ" class="FAQ">Usein Kysytyt Kysymykset &#9660;</a>
+    </div>
+
+    <footer>
+
+        
+        <div id="connect" class="connect"></div>
+<h1 class="reach"> Ota Yhteyttä </h1>
+
+<p class="reach">&#8226 Sähköpostitse: </p> 
+<p class="sähköposti">iso.muna@pornhub.com</p>
+<p class="puhelin"> &#8226 Puhelimitse:  </p>
+<p class="puhelin_nmr">+358 696969</p>
+<p class="somessa">&#8226 Somessa: </p>
+<a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML" target="_blank">
+    <img class="face" alt="facebook" src="images/facebook.png">
+</a>
+<a href="https://logodix.com/logos/938979" target="_blank">
+    <img class="ig" alt="instagram" src="images/instagram.png">
+</a>
+
+<!--
+<a href="https://www.w3schools.com/cssref/pr_class_position.asp" target="_blank">
+    <img src="images/tiktok.PNG" class="tt" alt="tiktok">
+</a>
+-->
+
+<img src="images/Transbike.png" alt="sähköpyörä" class="transbike_img_info">
+</footer>
+
+<img class="tranbike_img" src="images/Transbike.png" alt="pyörä">
+
+    </footer>
+</body>
+</html>

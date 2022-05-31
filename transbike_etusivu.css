@@ -1,0 +1,2148 @@
+    /* SIVUN YLÄ- JA ALAKERTA */
+
+    /* LÄPPÄRILLÄ!!!!!!!!!!! */
+    body{
+        font-family: 'Kanit', sans-serif;
+    }
+    
+
+    @media screen and (min-width: 426px) and (max-width:1375px) {
+    .ylä_box{
+        position: fixed;
+        top:0%;
+        left:0%;
+        width:100%;
+        height: 100px; 
+        background-color:white;
+        
+     }
+     .tranbike_img{
+         position: fixed;
+         top: 0%;
+         left: 60px;
+         height: 100px;
+         width: auto;
+     }
+
+     .tietoa_meistä{
+         position: fixed;
+         top: 40px;
+         left: 550px;
+         text-decoration: none;
+         color: black;
+         font-size: 22px;
+     }
+     .tietoa_meistä:hover{
+         font-size: 24px;
+     }
+     
+     .tuuotteet{
+         position: fixed;
+         top: 40px;
+         left: 250px;
+         text-decoration: none;
+         color: black;
+         font-size: 22px;
+     }
+     .tuuotteet:hover{
+         font-size: 24px;
+     }
+     .ota_yhteyttä{
+         position: fixed;
+         top: 40px;
+         left: 380px;
+         text-decoration: none;
+         color: black;  
+         font-size: 22px;
+     }
+     .ota_yhteyttä:hover{
+         font-size: 24px;
+     }
+     .FAQ {
+         position: fixed;
+         top: 40px;
+         left: 725px;
+         text-decoration: none;
+         color: black;
+         font-size: 22px;
+     }
+     .FAQ:hover{
+         font-size: 24px;
+     }
+     .fucked_border{
+         position:fixed;
+         top: 100px;
+         height: 0.1%;
+         width: 100%;
+         left: 0%;
+         background-color: black;
+     }
+     footer{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top:3900px;
+        height: 250px;
+        background-color: rgb(61, 60, 60);
+    }
+    h1.reach{
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        left: 150px;
+        color: orange;
+    }
+    p.reach{
+        font-size:22px;
+        position: absolute;
+        top: 119px;
+        left: 100px;
+        color: orange;
+    }
+   .sähköposti{
+        font-size: 22px;
+        position: absolute;
+        top: 119px;
+        left: 260px;
+        color:white;
+    }
+    
+    p.puhelin{
+        position: absolute;
+        top: 70px;
+        left: 100px;
+        font-size: 22px;
+        color: orange;
+    }
+    p.puhelin_nmr{
+        color: white;
+        position: absolute;
+        top: 70px;
+        left: 240px;
+        font-size: 22px;
+    }
+
+    p.somessa{
+        font-size: 22px;
+        position: absolute;
+        top: 165px;
+        left: 100px;
+        color: orange;
+    }
+    .face{
+       position: absolute;
+       top: 190px;
+       left: 230px;
+       width: 30px;
+       height: 30px;
+    }
+    .ig{
+       position: absolute;
+       top: 190px;
+       left: 290px;
+       width: 30px;
+       height: 30px;
+    }
+    .tt{
+       position: absolute;
+       top: 182px;
+       left: 310px;
+       width: 30px;
+       height: 30px;
+    }
+    .face:hover{
+       width: 50px;
+       height: 50px;
+       
+    }
+    .ig:hover{
+       width: 50px;
+       height: 50px;
+      
+    }
+    .tt:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 300px;
+    }
+    .transbike_img_info{
+        position: absolute;
+        top: 50px;
+        left: 700px;
+        width: 200px;
+        height: auto;
+    }
+    .connect{
+        position: absolute;
+        top: 3800px;
+        
+    }
+
+    /* VASEN PUOLI */
+    h1.transbike{
+        position: absolute;
+        top: 165px;
+        left: 50px;
+        font-size: 45px;
+        color: orange;
+    }
+    h1.muuttaa_pyörästäsi{
+        position: absolute;
+        top: 165px;
+        left: 255px;
+        font-size: 45px;
+        color: black;
+    }
+    h1.sähköpyörän{
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        font-size: 65px;
+        color: black;
+    }
+    .viiva{
+        position: absolute;
+        top: 340px;
+        left: 50px;
+        width: 625px;
+        height: 3px;
+        background-color: orange;
+    }
+
+
+    .text_holder{
+        position: absolute;
+        top: 370px;
+        left: 50px;
+        width: 650px;
+        height: 220px;
+        background-color: white;
+    }
+    .text_style_holder{
+        font-size: 20px;
+        color: black;
+        position: relative;
+        top: -20px;
+    }
+    .tilaa_heti{
+        position: absolute;
+        top: 525px;
+        left: 50px;
+        width: 150px;
+        height: 60px;
+        border: none;
+        outline: none;
+        background:orange ;
+        padding: 5px 10px;
+        cursor: pointer;
+        padding: 0px;
+        font-size: 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'kanit';
+    }
+    .tilaa_heti:hover{
+        width: 180px;
+        height:65px;
+        font-size: 37px;
+        border-radius: 10px;
+        position: absolute;
+        top: 526px;
+        left: 45px;
+    }
+    /* OIKEA PUOLI */
+
+
+
+
+     /* OMASTA PYÖRÄSTÄ SÄHKÖPYÖRÄ */
+
+     h1.omasta_pyöräst_sähk{
+         font-size: 35px;
+         position: absolute;
+         left: 570px;
+         top: 1900px;
+         color: black;
+     }
+    p.omasta_pyörästä_sähkönen{
+        position: absolute;
+        left: 500px;
+        top: 2000px;
+        color: black;
+        font-size: 20px;
+    
+    }
+     .climate{
+         position: absolute;
+         top: 2600px;
+         left: 150px;
+         width: 300px;
+         height: 200px;
+         border-radius: 10px;
+     }
+     h1.Climate{
+         position: absolute;
+         top: 2150px;
+         left: 170px;
+         color: green;
+         font-size: 30px;
+     }
+     .climate_textholder{
+         position: absolute;
+         top: 2220px;
+         left: 170px;
+         background-color:white;
+         width: 220px;
+         height: 270px;
+     }
+     .climate_text{
+         position: relative;
+         top: -20px;
+         font-size: 20px;
+         color: black;
+     }
+     .small_climate_img{
+        position: absolute;
+        top: 2175px;
+        left: 410px;
+        width: 35px;
+        height: 35px;
+
+     }
+     h1.health{
+         position: absolute;
+         top: 2150px;
+         left: 860px;
+         color: red;
+         font-size: 30px;
+     }
+    
+     .health_textholder{
+        position: absolute;
+        top: 2220px;
+        left: 860px;
+        background-color:white;
+        width: 220px;
+        height: 270px;
+    }
+    .health_text{
+        position: relative;
+        top: -20px;
+        font-size: 20px;
+        color: black;
+    }
+    .small_health_img{
+         position: absolute;
+         top: 2175px;
+         left: 1075px;
+         width: 35px;
+         height: 35px;
+     }
+     .Health{
+         position: absolute;
+         top: 2500px;
+         left: 850px;
+         width: 300px;
+         height: 200px;
+         border-radius: 10px;
+     }
+     .money{
+        position: absolute;
+        top: 2175px;
+        left: 520px;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+     }
+     h1.Money{
+        position: absolute;
+        top: 2400px;
+        left: 520px;
+        color:orange ;
+        font-size: 30px;
+     }
+     .money_textholder{
+        position: absolute;
+        top: 2470px;
+        left: 520px;
+        background-color:white;
+        width: 220px;
+        height: 270px;
+    }
+    .money_text{
+        position: relative;
+        top: -20px;
+        font-size: 20px;
+        color: black;
+    }
+    .small_money_img{
+        position: absolute;
+        top: 2422px;
+        left: 730px;
+        width: 35px;
+        height: 35px;
+    }
+     /* FAQ */
+
+     div.FAQ{
+        position: absolute;
+        top: 2550px;
+     }
+
+     h1.usein{
+         position: absolute;
+         left: 100px;
+         top: 2875px;
+         color: black;
+         font-size: 35px;
+     }
+     p.useinjuttuja{
+         position: absolute;
+         top: 2930px;
+         left:100px ;
+         color: black;
+         font-size: 20px;
+     }
+     .layot{
+         width: 600px;
+         position: absolute;
+         margin:auto;
+         top: 3050px;
+         left: 330px;
+         color: white;
+         text-align: center;
+
+     }
+     .accordin{
+         padding: 5px;
+         padding-bottom: 2px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         background-color: orange;
+         border-radius: 10px;
+     }
+     .accordin:hover{
+         cursor: pointer;
+         background-color:black;
+     }
+     .accordin_answer{
+         display: none;
+     }
+     .accordin.active .accordin_answer{
+         display: block;
+         background-color: white;
+         border-radius: 10px;
+         margin-top: 5px;
+         margin-bottom: 0px;
+     }
+     .accordin_question p{ 
+        padding: 0;
+        font-size: 25px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        
+    }
+    .accordin_answer p{
+        margin-top: 5px;
+        padding: 25px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: black;
+        text-align: left;
+        
+    }
+    /* TUOTTEET */
+
+    div.tuotteet{
+        position: absolute;
+        top: 840px;
+    }
+
+    h1.tuotteet{
+        font-size: 35px;
+        position: absolute;
+        top: 1050px;
+        left: 100px;
+        color: black;
+    }
+    p.tuotteet{
+        font-size: 30px;
+        position: absolute;
+        top: 1100px;
+        left: 100px;
+        color: black;
+    }
+    .maasto_tuote{
+        position: absolute;
+        top: 1300px;
+        left: 200px;
+        height: 450px;
+        width: 400px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px black solid;
+    }
+    .transbike_maasto_tuote{
+        position: relative;
+        top: 10px;
+        left: 75px;
+        font-size: 30px;
+        color: orange;
+    }
+    .maasto_maasto_tuote{
+        position: relative;
+        top: -55px;
+        left: 220px;
+        font-size: 30px;
+        color: black;
+    }
+    .maastokuva{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        height: 100px;
+        width:100%;
+        background-color: white;
+        border: 1px solid black;
+    }   
+    .tuote_kuva{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+    }
+    .maasto_tuote p{
+        font-size: 20px;
+        position: absolute;
+        top: 210px;
+        text-align: center;
+    } 
+    .hinta{
+        font-size: 30px;
+        position: absolute;
+        top: 300px;
+        left: 170px;
+    }
+    .maasto_button{
+        position: relative;
+        top: 230px;
+        left: 24%;
+        width: 200px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background:orange ;
+        cursor: pointer;
+        padding: 5px;
+        font-size: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'kanit';
+    }
+    .maasto_button:hover{
+        font-size: 28px;
+        color:black;
+    }
+
+    .katu_tuote{
+        position: absolute;
+        top: 1300px;
+        left: 700px;
+        height: 450px;
+        width: 400px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px black solid;
+    }
+    .transbike_katu_tuote{
+        position: relative;
+        top: 10px;
+        left: 75px;
+        font-size: 30px;
+        color: orange;
+    }
+    .katu_katu_tuote{
+        position: relative;
+        top: -55px;
+        left: 220px;
+        font-size: 30px;
+        color: black;
+    }
+    .katukuva{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        height: 100px;
+        width:100%;
+        background-color: white;
+        border: 1px solid black;
+    }
+    .katu_tuote p{
+        font-size: 20px;
+        position: absolute;
+        top: 210px;
+        text-align: center;
+    } 
+    .hinta2{
+        font-size: 30px;
+        position: absolute;
+        top: 300px;
+        left: 150px;
+    }
+    .katu_button{
+        position: relative;
+        top: 230px;
+        left: 24%;
+        width: 200px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background:orange ;
+        cursor: pointer;
+        padding: 5px;
+        font-size: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'kanit';
+    }
+    .katu_button:hover{
+        font-size: 28px;
+    }
+
+
+    /* KUVA SLIDER */
+    
+    .slider{
+        position: absolute;
+        top: 650px;
+        left: 100px;
+    }
+    .img-box img{
+        width: 600px;
+        height: 400px;
+        border: black 1px solid;
+    }
+    .btn1{
+        position: absolute;
+        top: 825px;
+        left: 85px;
+        border: none;
+        outline: none;
+        background:#888 ;
+        padding: 5px 10px;
+        font-size: 12px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 12px;
+        border: 1px solid black;
+    }
+    .btn2{
+        position: absolute;
+        top: 825px;
+        left: 685px;
+        border: none;
+        outline: none;
+        background:#888 ;
+        padding: 5px 10px;
+        font-size: 10px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 12px;
+        border: 1px solid black;
+    }
+    .btn1:hover{
+        background-color: orange;
+    }
+    .btn2:hover{
+        background-color: orange;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* KÄNNYKÄLLE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 250px) and (max-width: 425px) {
+        .mitä_tekee{
+            position: absolute;
+            top:100px;
+            left:50px;
+            width:1%;
+            height: 400px; 
+            background-color: black;
+    }
+    h1.sähköpyörän{
+        font-size: 150%;
+        color: black;
+        position: absolute;
+        top: 22%;
+        left: 5%;
+        color: black;
+    }
+    .ylä_box{
+        position: fixed;
+        top:0%;
+        left:0%;
+        width:100%;
+        height: 10%;                    /* EI OLE */
+        background-color:white;
+        display: none;
+     }
+
+     .tietoa_meistä{
+         position: fixed;
+         top: 4%;
+         left: 33%;                     /* EI OLE */
+         text-decoration: none;
+         color: black;
+         display: none;
+     }
+     .tietoa_meistä:hover{
+         font-size: 20px;
+         display: none;
+     }
+     
+     .tuuotteet{
+         position: fixed;
+         top: 4%;
+         left: 22%;
+         text-decoration: none;         /* EI OLE */
+         color: black;
+         display: none;
+     }
+     .tuuotteet:hover{
+         font-size: 20px;
+         display: none;
+     }
+     .ota_yhteyttä{
+         position: fixed;
+         top: 4%;
+         left: 47%;
+         text-decoration: none;         /* EI OLE */
+         color: black;  
+         display: none;
+     }
+     .ota_yhteyttä:hover{
+         font-size: 20px;
+         display: none;
+     }
+     .FAQ {
+         position: fixed;
+         top: 4%;
+         left: 60%;
+         text-decoration: none;         /* EI OLE */
+         color: black;
+         display: none;
+     }
+     .FAQ:hover{
+         font-size: 20px;
+         display: none;
+     }
+     .fucked_border{
+         position:fixed;
+         top: 10%;
+         height: 0.1%;                  /* EI OLE */
+         width: 100%;
+         left: 0%;
+         background-color: black;
+         display: none;
+     }
+     footer{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top:4600px;         
+        height: 250px;
+        background-color: rgb(61, 60, 60);
+        
+    }
+    h1.reach{
+        font-size: 23px;
+        position: absolute;
+        top: 10px;              
+        left: 10px;
+        color: orange;
+        
+    }
+    p.reach{
+        font-size: large;
+        position: absolute;
+        top: 119px;
+        left: 10px;
+        color: orange;
+        
+    }
+   .sähköposti{
+    font-size: 15px;
+        position: absolute;
+        top: 125px;
+        left: 153px;
+        color:white;
+        
+    }
+    
+    p.puhelin{
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        font-size: 20px;
+        color: orange;
+        
+    }
+    p.puhelin_nmr{
+        color: white;
+        position: absolute;
+        top: 74px;
+        left: 145px;
+        font-size: 18px;
+        
+    }
+
+    p.somessa{
+        font-size: large;
+        position: absolute;
+        top: 165px;
+        left: 10px;
+        color: orange;
+        
+    }
+    .face{
+       position: absolute;
+       top: 182px;
+       left: 130px;
+       width: 30px;
+       height: 30px;
+       
+    }
+    .ig{
+       position: absolute;
+       top: 182px;
+       left: 190px;
+       width: 30px;
+       height: 30px;
+       
+    }
+    .tt{
+       position: absolute;
+       top: 182px;
+       left: 310px;
+       width: 30px;
+       height: 30px;
+       display: none;
+    }
+    .face:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 185px;
+       display: none;
+    }
+    .ig:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 240px;
+       display: none;
+    }
+    .tt:hover{
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 170px;
+       left: 300px;
+    }
+    .transbike_img_info{
+        position: absolute;
+        top: 50px;
+        left: 70%;
+        width: 200px;
+        height: auto;
+        display: none;
+    }
+    .connect{
+        position: absolute;
+        top: 3800px;
+        
+    }
+   
+
+    /* VASEN PUOLI */
+    h1.transbike{
+        position: absolute;
+        top: 15px;
+       left: 30%;
+        font-size: 30px; 
+        color: orange;
+        
+    }
+    h1.muuttaa_pyörästäsi{
+        position: absolute;
+        top: 54px;
+        left: 22%;
+        font-size: 22px;
+        color: black;
+    }
+    h1.sähköpyörän{
+        position: absolute;
+        top: 85px;
+        left: 26%;
+        font-size: 22px;
+        color: black;
+    }
+    .viiva{
+        position: absolute;
+        top: 135px;
+        left: 15%;
+        width: 80%;
+        height: 2px;
+        background-color: orange;
+    }
+    .tranbike_img{
+        position: absolute;
+        top: 150px;
+        left: 22%;
+        height: 120px;
+        width: auto;
+        
+    }
+    .tilaa_heti{
+        position: absolute;
+        top: 280px;
+        left: 35%;
+        width: 100px;
+        height: 30px;
+        border: none;
+        outline: none;
+        background:orange ;
+        cursor: pointer;
+        padding: 0px;
+        font-size: 18px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: none;
+    }
+    .text_holder{
+        position: absolute;
+        top: 275px;
+        left: 15%;
+        width: 75%;
+        height: 120px;
+        background-color: white;
+    }
+    .text_style_holder{
+        font-size: 17px;
+        color: black;
+        position: relative;
+        top: -20px;
+    }
+   
+    
+    
+
+    /* OIKEA PUOLI */
+
+
+
+
+     /* OMASTA PYÖRÄSTÄ SÄHKÖPYÖRÄ */
+
+     h1.omasta_pyöräst_sähk{
+         font-size: 23px;
+         position: absolute;
+         left: 25%;
+         top: 1580px;
+         color: black;
+     }
+    p.omasta_pyörästä_sähkönen{
+        position: absolute;
+        left: 13%;
+        top: 1680px;
+        color: black;
+        font-size: 19px;
+    }
+    .viivainen{
+        position: absolute;
+        top: 1782px;
+        left: 5%;
+        height: 2px;
+        width: 90%;
+        background-color: orange;
+    }
+     .climate{
+         position: absolute;
+         top: 2150px;
+         left:10%;
+         width: 250px;
+         height: 200px;
+         border-radius: 10px;
+     }
+
+
+
+     .climate_textholder{
+        position: absolute;
+        top: 1865px;
+        left: 10%;
+        background-color:white;
+        width: 220px;
+        height: 240px;
+    }
+    .climate_text{
+        position: relative;
+        top: -20px;
+        font-size: 100%;
+        color: black;
+    }
+    
+
+     h1.Climate{
+         position: absolute;
+         top: 1800px;
+         left: 10%;
+         color: green;
+         font-size: 30px;
+     }
+     .small_climate_img{
+        position: absolute;
+        top: 1820px;
+        left: 10%;
+        width: 35px;                    /* EI OLE!!!! */
+        height: 35px;
+        display: none;
+     }
+
+     h1.health{
+         position: absolute;
+         top: 2350px;
+         left: 10%;
+         color: red;
+         font-size: 30px;
+     }
+     .health_textholder{
+        position: absolute;
+        top: 2420px;
+        left: 10%;
+        background-color: white;
+        width: 220px;
+        height: 230px;
+    }
+    .health_text{
+        position: relative;
+        top: -20px;
+        font-size: 100%;
+        color: black;
+    }
+     .small_health_img{
+         position: absolute;
+         top: 2175px;
+         left: 1075px;
+         width: 35px;               /* EI OLE!!! */
+         height: 35px;
+         display: none;
+     }
+
+
+
+
+     /* tektstii tähän*/
+
+
+
+     .Health{
+         position: absolute;
+         top: 2650px;
+         left: 10%;
+         width: 250px;
+         height: 200px;
+         border-radius: 10px;
+     }
+
+     .money{
+        position: absolute;
+        top: 3190px;
+        left: 10%;
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
+     }
+     h1.Money{
+        position: absolute;
+        top: 2900px;
+        left: 10%;
+        color:orange ;
+        font-size: 30px;
+     }
+     .money_textholder{
+        position: absolute;
+        top: 2960px;
+        left: 10%;
+        background-color: white;
+        width: 220px;
+        height: 220px;
+    }
+    .money_text{
+        position: relative;
+        top: -15px;
+        font-size: 100%;
+        color: black;
+    }
+    .small_money_img{
+        position: absolute;
+        top: 2422px;
+        left: 730px;
+        width: 35px;            /* EI OLE!!! */
+        height: 35px;       
+        display:none;
+    }
+     /* FAQ */
+
+     div.FAQ{
+        position: absolute;
+        top: 2550px;            /* EI OLE!!! */
+        display: none;
+     }
+
+     h1.usein{
+         position: absolute;
+         left: 18%;
+         top: 3460px;
+         color: black;
+         font-size: 23px;
+     }
+     p.useinjuttuja{
+         position: absolute;
+         top: 3550px;
+         left:10% ;
+         color: black;
+         font-size: 20px;
+     }
+     .layot{
+         width: 300px;
+         position: absolute;
+         margin:auto;
+         top: 3700px;
+         left: 10px;
+         color: white;
+         text-align: center;
+
+     }
+     .accordin{
+         padding: 5px;
+         padding-bottom: 2px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         background-color: orange;
+         border-radius: 10px;
+     }
+     .accordin:hover{
+         cursor: pointer;
+         background-color:black;
+     }
+     .accordin_answer{
+         display: none;
+     }
+     .accordin.active .accordin_answer{
+         display: block;
+         background-color: white;
+         border-radius: 10px;
+         margin-top: 5px;
+         margin-bottom: 0px;
+     }
+     .accordin_question p{ 
+        padding: 0;
+        font-size: 20px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        
+    }
+    .accordin_answer p{
+        margin-top: 5px;
+        padding: 25px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: black;
+        text-align: left;
+        
+    }
+    /* TUOTTEET */
+
+    div.tuotteet{
+        position: absolute;
+        top: 840px;                 /* EI OLE!!! */
+        display: none;
+    }
+    h1.tuotteet{
+        font-size: 22px;
+        position: absolute;
+        top: 415px;
+        left:11%;
+        color: black;
+    }
+    p.tuotteet{
+        font-size: 18px;
+        position: absolute;
+        top: 480px;
+        left: 10%;
+        color: black;
+    }
+    .maasto_tuote{
+        position: absolute;
+        top: 600px;
+        left: 3%;
+        height: 420px;
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px black solid;
+    }
+    .transbike_maasto_tuote{
+        position: relative;
+        top: 10px;
+        left: 22px;
+        font-size: 175%;
+        color: orange;
+    }
+    .maasto_maasto_tuote{
+        position: relative;
+        top: -51px;
+        left: 175px;
+        font-size: 175%;
+        color: black;
+    }
+    .maastokuva{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        height: 100px;
+        width:100%;
+        background-color: white;
+        border: 1px solid black;
+    }   
+    .tuote_kuva{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+    }
+    .maasto_tuote p{
+        font-size: 110%;
+        position: absolute;
+        top: 210px;
+        text-align: center;
+    } 
+    .hinta{
+        font-size: 30px;
+        position: absolute;
+        top: 300px;
+        left: 120px;
+    }
+    .maasto_button{
+        position: relative;
+        top: 220px;
+        left: 24%;
+        width: 150px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background:orange ;
+        cursor: pointer;
+        padding: 5px;
+        font-size: 110%;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'kanit';
+    }
+    .maasto_button:hover{
+        font-size: 21px;
+        color:black;
+    }
+
+
+
+    .katu_tuote{
+        position: absolute;
+        top: 1100px;
+        left:3%;
+        height: 420px;
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px black solid;
+    }
+    .transbike_katu_tuote{
+        position: relative;
+        top: 10px;
+        left: 22px;
+        font-size: 175%;
+        color: orange;
+    }
+    .katu_katu_tuote{
+        position: relative;
+        top: -51px;
+        left: 175px;
+        font-size:175%;
+        color: black;
+    }
+    .katukuva{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        height: 100px;
+        width:100%;
+        background-color: white;
+        border: 1px solid black;
+    }
+    .katu_tuote p{
+        font-size: 110%;
+        position: absolute;
+        top: 195px;
+        text-align: center;
+    } 
+    .hinta2{
+        font-size: 30px;
+        position: absolute;
+        top: 300px;
+        left: 110px;
+    }
+    .katu_button{
+        position: relative;
+        top: 220px;
+        left: 24%;
+        width: 150px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background:orange ;
+        cursor: pointer;
+        padding: 5px;
+        font-size: 110%;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'kanit';
+    }
+    .katu_button:hover{
+        font-size: 21px;
+    }
+
+
+
+
+    /* KUVA SLIDER */
+    
+    .slider{
+        position: absolute;
+        top: 760px;
+        left: 50px;
+        display: none;
+    }
+    .img-box img{
+        width: 400px;
+        height: 200px;
+        border: black 1px solid;
+        display: none;
+    }
+    .btn1{
+        position: absolute;
+        top: 725px;
+        left: 170px;
+        border: none;
+        outline: none;
+        background:#888 ;
+        padding: 5px 10px;
+        font-size: 10px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 12px;
+        border: 1px solid black;
+        display: none;
+    }
+    .btn2{
+        position: absolute;
+        top: 725px;
+        left: 270px;
+        border: none;
+        outline: none;
+        background:#888 ;
+        padding: 5px 10px;
+        font-size: 10px;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 12px;
+        border: 1px solid black;
+        display: none;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ISOLLE TIETOKONEELLE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1376px){
+
+ .ylä_box{
+        position: fixed;
+        top:0%;
+        left:0%;
+        width:100%;
+        height: 100px; 
+        background-color:white;
+        
+     }
+     .tranbike_img{
+         position: fixed;
+         top: 0%;
+         left: 6%;
+         height: 100px;
+     }
+
+     .tietoa_meistä{
+         position: fixed;
+         top: 40px;
+         left: 33%;
+         text-decoration: none;
+         color: black;
+         font-size: 20px;
+     }
+     .tietoa_meistä:hover{
+         font-size: 24px;
+     }
+     
+     .tuuotteet{
+         position: fixed;
+         top: 40px;
+         left: 22%;
+         text-decoration: none;
+         color: black;
+         font-size: 20px;
+     }
+     .tuuotteet:hover{
+         font-size: 24px;
+     }
+     .ota_yhteyttä{
+         position: fixed;
+         top: 40px;
+         left: 47%;
+         text-decoration: none;
+         color: black;  
+         font-size: 20px;
+     }
+     .ota_yhteyttä:hover{
+         font-size: 24px;
+     }
+     .FAQ {
+         position: fixed;
+         top: 40px;
+         left: 60%;
+         text-decoration: none;
+         color: black;
+         font-size: 20px;
+     }
+     .FAQ:hover{
+         font-size: 24px;
+     }
+     .fucked_border{
+         position:fixed;
+         top: 100px;
+         height: 0.1%;
+         width: 100%;
+         left: 0%;
+         background-color: black;
+     }
+    
+     
+     footer{
+         position: absolute;
+         width: 100%;
+         left: 0%;
+         top:4300px;
+         height: 250px;
+         background-color: rgb(61, 60, 60);
+     }
+     h1.reach{
+         font-size:30px;
+         position: absolute;
+         top: 10px;
+         left: 150px;
+         color: orange;
+     }
+     p.reach{
+         font-size: 22px;
+         position: absolute;
+         top: 119px;
+         left: 100px;
+         color: orange;
+     }
+    .sähköposti{
+         font-size: 22px;
+         position: absolute;
+         top: 119px;
+         left: 260px;
+         color:white;
+     }
+     
+     p.puhelin{
+         position: absolute;
+         top: 70px;
+         left: 100px;
+         font-size: 22px;
+         color: orange;
+     }
+     p.puhelin_nmr{
+         color: white;
+         position: absolute;
+         top: 70px;
+         left: 240px;
+         font-size: 22px;
+     }
+
+     p.somessa{
+         font-size: 22px;
+         position: absolute;
+         top: 165px;
+         left: 100px;
+         color: orange;
+     }
+     .face{
+        position: absolute;
+        top: 190px;
+        left: 230px;
+        width: 30px;
+        height: 30px;
+     }
+     .ig{
+        position: absolute;
+        top: 190px;
+        left: 300px;
+        width: 30px;
+        height: 30px;
+     }
+     .tt{
+        position: absolute;
+        top: 182px;
+        left: 310px;
+        width: 30px;
+        height: 30px;
+     }
+     .face:hover{
+        width: 50px;
+        height: 50px;
+        
+     }
+     .ig:hover{
+        width: 50px;
+        height: 50px;
+        
+     }
+     .tt:hover{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 170px;
+        left: 300px;
+     }
+     .transbike_img_info{
+         position: absolute;
+         top: 50px;
+         left: 70%;
+         width: 200px;
+         height: auto;
+     }
+     .connect{
+         position: absolute;
+         top: 3800px;
+         
+     }
+
+    /* VASEN PUOLI */
+    h1.transbike{
+        position: absolute;
+        top: 160px;
+        left: 105px;
+        font-size: 50px;
+        color: orange;
+    }
+    h1.muuttaa_pyörästäsi{
+        position: absolute;
+        top: 160px;
+        left: 340px;
+        font-size: 50px;
+        
+    }
+    h1.sähköpyörän{
+        position: absolute;
+        top: 190px;
+        left: 105px;
+        font-size: 80px;
+    }
+    .viiva{
+        position: absolute;
+        top: 365px;
+        left: 105px;
+        width: 750px;
+        height: 3px;
+        background-color: orange;
+    }
+    .text_holder{
+        position: absolute;
+        top: 370px;
+        left: 105px;
+        width: 700px;
+        height: 240px;
+        background-color: white;
+    }
+    .text_style_holder{
+        font-size: 22px;
+        color: black;
+        position: relative;
+        top: 0px;
+    }
+    .tilaa_heti{
+        position: absolute;
+        top: 550px;
+        left: 105px;
+        width: 160px;
+        height: 60px;
+        border: none;
+        outline: none;
+        background:orange ;
+        padding: 5px 10px;
+        cursor: pointer;
+        padding: 2px;
+        font-size: 32px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'kanit';
+        text-align: center;
+        
+
+    }
+    .tilaa_heti:hover{
+        width: 180px;
+        height:75px;
+        font-size: 38px;
+        border-radius: 10px;
+        position: absolute;
+        top: 545px;
+        left: 100px;
+    }
+    /* OIKEA PUOLI */
+
+
+
+
+     /* OMASTA PYÖRÄSTÄ SÄHKÖPYÖRÄ */
+
+     h1.omasta_pyöräst_sähk{
+         font-size: 40px;
+         position: absolute;
+         left: 60%;
+         top: 2100px;
+         color: black;
+     }
+    p.omasta_pyörästä_sähkönen{
+        position: absolute;
+        left: 45%;
+        top: 2150px;
+        color: black;
+        font-size: 30px;
+    
+    }
+     .climate{
+         position: absolute;
+         top: 2700px;
+         left: 400px;
+         width: 300px;
+         height: 200px;
+         border-radius: 10px;
+     }
+     h1.Climate{
+         position: absolute;
+         top: 2350px;
+         left: 420px;
+         color: green;
+         font-size: 30px;
+     }
+     .climate_textholder{
+        position: absolute;
+        top: 2420px;
+        left: 420px;
+        background-color:white;
+        width: 310px;
+        height: 270px;
+    }
+    .climate_text{
+        position: relative;
+        top: -20px;
+        font-size: 20px;
+        color: black;
+    }
+     .small_climate_img{
+        position: absolute;
+        top: 2375px;
+        left: 460px;
+        width: 35px;
+        height: 35px;
+
+     }
+     h1.health{
+         position: absolute;
+         top: 2350px;
+         left: 1150px;
+         color: red;
+         font-size: 30px;
+     }
+     .health_textholder{
+        position: absolute;
+        top: 2420px;
+        left: 1150px;
+        background-color:white;
+        width: 310px;
+        height: 270px;
+    }
+    .health_text{
+        position: relative;
+        top: -20px;
+        font-size: 20px;
+        color: black;
+    }
+     .small_health_img{
+         position: absolute;
+         top: 2375px;
+         left: 1155px;
+         width: 35px;
+         height: 35px;
+     }
+     .Health{
+         position: absolute;
+         top: 2700px;
+         left: 1150px;
+         width: 300px;
+         height: 200px;
+         border-radius: 10px;
+     }
+     .money{
+        position: absolute;
+        top: 2375px;
+        left: 790px;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+     }
+     h1.Money{
+        position: absolute;
+        top: 2600px;
+        left: 790px;
+        color:orange ;
+        font-size: 30px;
+     }
+     .money_textholder{
+        position: absolute;
+        top: 2670px;
+        left: 790px;
+        background-color: white;
+        width: 310px;
+        height: 270px;
+    }
+    .money_text{
+        position: relative;
+        top: -20px;
+        font-size: 20px;
+        color: black;
+    }
+    .small_money_img{
+        position: absolute;
+        top: 2622px;
+        left: 790px;
+        width: 35px;
+        height: 35px;
+    }
+     /* FAQ */
+
+     div.FAQ{
+        position: absolute;
+        top: 2750px;
+     }
+
+     h1.usein{
+         position: absolute;
+         left: 150px;
+         top: 3075px;
+         color: black;
+         font-size: 40px;
+     }
+     p.useinjuttuja{
+         position: absolute;
+         top: 3130px;
+         left:150px ;
+         color: black;
+         font-size: 30px;
+     }
+     .layot{
+         width: 600px;
+         position: absolute;
+         margin:auto;
+         top: 3300px;
+         left: 530px;
+         color: white;
+         text-align: center;
+
+     }
+     .accordin{
+         padding: 5px;
+         padding-bottom: 2px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         background-color: orange;
+         border-radius: 10px;
+     }
+     .accordin:hover{
+         cursor: pointer;
+         background-color:black;
+     }
+     .accordin_answer{
+         display: none;
+     }
+     .accordin.active .accordin_answer{
+         display: block;
+         background-color: white;
+         border-radius: 10px;
+         margin-top: 5px;
+         margin-bottom: 0px;
+     }
+     .accordin_question p{ 
+        padding: 0;
+        font-size: 25px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        
+    }
+    .accordin_answer p{
+        margin-top: 5px;
+        padding: 25px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        color: black;
+        text-align: left;
+        
+    }
+    /* TUOTTEET */
+
+    div.tuotteet{
+        position: absolute;
+        top: 1070px;
+    }
+
+    h1.tuotteet{
+        font-size: 40px;
+        position: absolute;
+        top: 1250px;
+        left: 100px;
+        color: black;
+    }
+    p.tuotteet{
+        font-size: 30px;
+        position: absolute;
+        top: 1300px;
+        left: 100px;
+        color: black;
+    }
+    .maasto_tuote{
+        position: absolute;
+        top: 1500px;
+        left: 340px;
+        height: 450px;
+        width: 400px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px black solid;
+    }
+    .transbike_maasto_tuote{
+        position: relative;
+        top: 10px;
+        left: 75px;
+        font-size: 30px;
+        color: orange;
+    }
+    .maasto_maasto_tuote{
+        position: relative;
+        top: -55px;
+        left: 220px;
+        font-size: 30px;
+        color: black;
+    }
+    .maastokuva{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        height: 100px;
+        width:100%;
+        background-color: white;
+        border: 1px solid black;
+    }  
+    .tuote_kuva{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100px;
+    } 
+    .maasto_tuote p{
+        font-size: 21px;
+        position: absolute;
+        top: 195px;
+        text-align: center;
+    } 
+    .hinta {
+        font-size: 30px;
+        position: absolute;
+        top: 300px;
+        left: 170px;
+    } 
+    
+    .maasto_button{
+        position: relative;
+        top: 230px;
+        left: 24%;
+        width: 200px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background:orange ;
+        cursor: pointer;
+        padding: 5px;
+        font-size: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'kanit';
+    }
+    .maasto_button:hover{
+        font-size: 28px;
+        color:black;
+    }
+    
+    .katu_tuote{
+        position: absolute;
+        top: 1500px;
+        left: 1050px;
+        height: 450px;
+        width: 400px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px black solid;
+    }
+    .transbike_katu_tuote{
+        position: relative;
+        top: 10px;
+        left: 75px;
+        font-size: 30px;
+        color: orange;
+    }
+    .katu_katu_tuote{
+        position: relative;
+        top: -55px;
+        left: 220px;
+        font-size: 30px;
+        color: black;
+    }
+    .katukuva{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        height: 100px;
+        width:100%;
+        background-color: white;
+        border: 1px solid black;
+    }
+    
+    .katu_tuote p{
+        font-size: 21px;
+        position: absolute;
+        top: 195px;
+        text-align: center;
+    } 
+    .hinta2{
+        font-size: 30px;
+        position: absolute;
+        top: 300px;
+        left: 150px;
+    }
+    
+    .katu_button{
+        position: relative;
+        top: 230px;
+        left: 24%;
+        width: 200px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background:orange ;
+        cursor: pointer;
+        padding: 5px;
+        font-size: 25px;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'kanit';
+    }
+    .katu_button:hover{
+        font-size: 28px;
+    }
+
+
+    /* KUVA SLIDER */
+    
+    .slider{
+        position: absolute;
+        top: 760px;
+        left: 105px;
+    }
+    .img-box img{
+        width: 650px;
+        height: 400px;
+        border: black 1px solid;
+    }
+    .btn1{
+        position: absolute;
+        top: 925px;
+        left: 85px;
+        border: none;
+        outline: none;
+        background:#888 ;
+        cursor: pointer;
+        padding: 4px 9px;
+        font-size: 22px;
+        border: 1px solid black;
+    }
+    .btn2{
+        position: absolute;
+        top: 925px;
+        left: 735px;
+        border: none;
+        outline: none;
+        background:#888 ;
+        cursor: pointer;
+        padding: 4px 9px;
+        font-size: 22px;
+        border: 1px solid black;
+    }
+    .btn1:hover{
+        background-color: orange;
+    }
+    .btn2:hover{
+        background-color:orange;
+
+    }
+}
